@@ -1,65 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Day and Night</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <title>Day and Night</title>
+    <link rel="stylesheet" href="css/index-style.css">
+  </head>
 
 
 
-  <body>
-    <script src="js/script.js" defer></script> 
-
-    <div class="scroll-watcher"></div>
-    <div class="sky">
-      <div class="morning"></div>
-      <div class="noon"></div>
-      <div class="afternoon"></div>
-      <div class="night"></div>
-    </div>
-
-    <!-- Main header here -->
-    <h1>a day in the life of me!</h1>
-
-
-    <!-- Morning content, introduction kinda like waking up -->
-    <div class = "container morning">
-      <h2>are my eyes open yet?</h2>
-      <img src="assets/me.jpg" class="centre-image">
-      <p>My name is Caton Tan, I am studying a B. Civil Engineering w/ Computer Science double degree in my 4th Year at UNSW. <br> I have two pets, one cat and one dog who you can see below!</p>
-      <img src="assets/mango.jpg" class="centre-image">
-      <img src="assets/me.jpg" class="centre-image">
-
-    </div>
-
-    <!-- Noon content, day to day, society related/work related/uni related -->
-    <div class = "container noon">
-      <h2>sun is shining...</h2>
-      <p>I am currently studying in my 4th year of Civil Engineering & Computer Science at UNSW</p>
-      <p>I'm also involved in Civil and Environmental Engineering Society at UNSW in 2026 as the Treasurer</p>
-    </div>
+  <body id="six-background">
+    <!-- main body -->
+     <section class="body-container">
+      <!-- left section -->
+       <div id="left-container">
+        <img class="pfp" src="assets/pfp.png" alt="pfp">
+        <p>caton | '04</p>
+        <div class="button-container">
+          <a href="index.html" id="current-button">6AM</a>
+          <a href="12pm.html" class="tab-button">12PM</a>
+          <a href="5pm.html" class="tab-button">5PM</a>
+          <a href="9pm.html"class="tab-button">9PM</a>
+        </div>
 
 
+       </div>
 
-    <!-- Afternoon content, Sports/favourite spots to hang out -->
-    <div class = "container afternoon">
-      <h2>waiting for dinner time...</h2>
-      <p>I enjoy playing volleyball</p>
-      <p>I like looking at stationery and looking inside stores! My favourites are Kinokuniya and Milligram</p>
-    </div>
+      <!-- right section -->
+      <div class="right-container">
+        <div id="right-header">
+          <h1>a day in the life with me!</h1>
+        </div>
+        <div class="right-subheader">
+          <span>time</span>
+          <span>to</span>
+          <span>wake</span>
+          <span>up!</span>
+        </div>
+        <div class="textbox">
+          <p>good morning! my name is Caton and I am a 4th year Civil Engineering and Computer Science student!
+            <br>
+            I used to be really into video games, however I have recently found a passion in creating things entirely my own! I am trying to get more into crochet, drawing and other crafty things :)
+          </p>
+        </div>
+        <div class="media-container">
+          <div class="mediabox">
+            <h3>my cat Mango</h3>
+            <img class="pfp" src="assets/mango.jpg">
+          </div>
+          <div class="mediabox">
+            <h3>my dog Toffee</h3>
+            <img class="pfp" src="assets/toffee.jpg">
+          </div>
+        </div>
 
+       </div>
 
-
-    <!-- Night content, home hobbies (crochet, games, drawing) -->
-    <div class = "container night">
-      <h2>getting ready for bed...</h2>
-      <p>Here are the hobbies that I like doing at home!</p>
-      <ul>
-       <li>crochet</li>
-       <li>video games</li>
-       <li>drawing</li>
-      </ul>
-    </div>
+     </section>
   </body>
-
 </html>

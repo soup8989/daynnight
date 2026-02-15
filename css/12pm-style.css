@@ -1,0 +1,127 @@
+body {
+  background-color: black;
+  background-image: url('https://wallpapercave.com/wp/wp7185813.jpg');
+  background-position: -230px -50px;
+  background-size: 1920px;
+  font-family: Calibri;
+}
+
+.body-container{
+    width:70%;
+    margin:auto;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    overflow: hidden;
+}
+
+/* Left Div */
+#left-container{
+  width: 20%;
+  height: 500px;
+  float:left;
+}
+
+#left-container p{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  color:#014889;
+  font-weight: bold;
+}
+
+#pfp{
+  border-radius: 50% 50%;
+  width:80%;
+  float:left;
+  padding: 10px 10px 10px 10px;
+}
+
+.button-container{
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 40%;
+  gap: 10px;
+}
+
+.tab-button{
+  width: 40%;
+  height: 20px;
+  color:white;
+  background-color: #014889;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+/* Right Div */
+.right-container{
+  width: 70%;
+  height: 500px;
+  float:left;
+}
+
+#right-header{
+  height:20%;
+  width: 100%;
+}
+
+#right-header h1{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.right-subheader{
+  margin-top:30px;
+  margin-left: 200px;
+}
+
+.right-subheader span{
+  display:inline-block;
+  font-size:large;
+  color: #014889;
+  font-weight:bold;
+  animation: wave 2s ease-in-out infinite;
+}
+
+.right-subheader span:nth-child(1){
+  animation-delay: 0s;
+}
+
+.right-subheader span:nth-child(2){
+  animation-delay: 0.2s;
+}
+.right-subheader span:nth-child(3){
+  animation-delay: 0.4s;
+}
+.right-subheader span:nth-child(4){
+  animation-delay: 0.6s;
+}
+
+@keyframes wave{
+  0%, 100% {transform: translateY(0)}
+  50% {transform:translateY(-20px)}
+}
+
+.textbox{
+  margin-right: 120px;
+  margin-top: 40px;
+  float:right;
+  height: 50%;
+  width: 50%;
+  border-top: 2px #D5202B groove;
+  border-bottom: 2px #D5202B groove;
+  background-color: #014889;
+}
+
+
+.textbox p{
+  margin:20px;
+  color:rgb(255, 255, 255);
+  opacity: 100%;
+}
+

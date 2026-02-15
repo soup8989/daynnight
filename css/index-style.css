@@ -1,0 +1,222 @@
+body {
+  background-color: black;
+  background-position: -230px -50px;
+  background-size: 1920px;
+  font-family: Calibri;
+}
+
+#six-background{
+  background-image: url('https://wallpapercave.com/wp/wp7185813.jpg');
+}
+
+#twelve-background{
+  background-image: url('https://cdn.discordapp.com/attachments/883597595002404874/1472579322651873431/aesthetic-landscape-animal-crossing-hd-xx4gl44cuw3ppkmm.png?ex=699315dd&is=6991c45d&hm=60a1fd8ac9177de44730dafe88b8171ab11bf7afa9fccd74b45cbc41bd5fab9e&');
+}
+
+#five-background{
+  background-image: url('https://images4.alphacoders.com/139/thumb-1920-1394093.jpg');
+}
+
+#nine-background{
+  background-image: url('https://cdn.dynamicwallpaper.club/wallpapers/gz0jnnh15t7/thumbs/1600/0.jpg');
+  background-position: -300px -50px;
+
+}
+
+.body-container{
+    width:70%;
+    margin:auto;
+    box-sizing: border-box;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    overflow: hidden;
+}
+
+/* Left Div */
+#left-container{
+  width: 20%;
+  height: 500px;
+  float:left;
+}
+
+#left-container p{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  color:#014889;
+  font-weight: bold;
+}
+
+.pfp{
+  border-radius: 50% 50%;
+  width:80%;
+  float:left;
+  padding: 10px 10px 10px 10px;
+  aspect-ratio: 1/1;
+  object-fit:cover;
+}
+
+
+/* Buttons! */
+
+.button-container{
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 40%;
+  gap: 10px;
+}
+
+.tab-button{
+  width: 40%;
+  height: 20px;
+  color:white;
+  background-color: #014889;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.tab-button:hover {
+  background-color: #0260b3;   /* lighter blue */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+#current-button{
+  width: 40%;
+  height: 20px;
+  color: white;
+  background-color: #D5202B;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Right Div */
+.right-container{
+  width: 70%;
+  height: 500px;
+  float:left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#right-header{
+  height:20%;
+  width: 100%;
+}
+
+#right-header h1{
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+/* Wavy Text */
+.right-subheader{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-subheader span{
+  display:inline-block;
+  font-size:32px;
+  color: #014889;
+  font-weight:bold;
+  animation: wave 2s ease-in-out infinite;
+}
+
+.right-subheader span:nth-child(1){
+  animation-delay: 0s;
+}
+
+.right-subheader span:nth-child(2){
+  animation-delay: 0.2s;
+}
+.right-subheader span:nth-child(3){
+  animation-delay: 0.4s;
+}
+.right-subheader span:nth-child(4){
+  animation-delay: 0.6s;
+}
+
+.right-subheader .twelve-span{
+  color: #ffff7d;
+}
+
+@keyframes wave{
+  0%, 100% {transform: translateY(0)}
+  50% {transform:translateY(-20px)}
+}
+
+/* Textbox */
+
+.textbox{
+  margin-top: 40px;
+  width: 50%;
+  border-top: 2px #D5202B groove;
+  border-bottom: 2px #D5202B groove;
+  color:rgb(255, 255, 255);
+  background-color: #014889;
+
+}
+
+.textbox p{
+  margin:20px;
+  opacity: 100%;
+}
+
+.textbox ul{
+  line-height: 3px;
+  margin-bottom:20px;
+
+}
+
+/* Textbox */
+
+.media-container{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.mediabox{
+  margin-top: 40px;
+  width:250px;
+  height:100%;
+  border-top: 2px #D5202B groove;
+  border-bottom: 2px #D5202B groove;
+  color:rgb(255, 255, 255);
+  background-color: #014889;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mediabox h3{
+  margin:20px;
+  text-align: center;
+}
+
+.mediabox .pfp{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
