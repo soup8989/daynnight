@@ -1,0 +1,66 @@
+body {
+  font-family: "Calibri";
+  text-align: justify;
+  transition: background 0.8s ease, color 0.8 ease;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.morning {
+  background-color: #87CEEB;
+}
+
+.noon {
+  background-color: #4ec0ff;
+}
+
+.afternoon {
+  background-color: #f5a623;
+}
+
+.night {
+  background-color: #0f0f28;
+  color: white;
+}
+
+.centre-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* To see how far along we are on the page */
+.scroll-watcher {
+  height: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: lime;
+  width:100%;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll-watcher{
+    to { scale: 1 1;} 
+}
